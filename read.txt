@@ -1,3 +1,0 @@
-A smart Adversary may use long gadgets in a JOP attack. It may be diffucult for an adversaey
-to implement them in a practical situation however, as many unintedned side effects are 
-likley to occur. Consider an adversary that 
