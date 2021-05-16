@@ -14,9 +14,10 @@ PINenforce is a code re-use attack mitigation system built with the intel PIN fr
 Usage
 -----
 
+```
 pin -t obj-intel64/enfA.so -- [application] or 
 pin -t obj-intel64/enfB.so -- [applicaiton] for the two algorithms
 
 configure PINenforce (paramters, ret based shadow stack, etc.) by editing source and doing
 make obj_intel64/enfAorB.so
-
+```
