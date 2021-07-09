@@ -104,7 +104,7 @@ VOID checkBranch(){
 	}
 	if(bcount >= MAXSJMP){
 		printf("found sus jmp control flow transfer\n");
-		bcount = 0; //remove later
+		bcount = 0; //remove later, this is where one would check for system calls
 		jcount++;	
 	}
 	return;
